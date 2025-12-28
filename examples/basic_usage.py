@@ -6,7 +6,7 @@ def main():
     # Initialize OCR client
     ocr = ReceiptOCR(
         provider='google_vision',
-        credentials_path='path/to/credentials.json'  # Optional if env var set
+        credentials_path='credentials/fiscflowai-service-account-key.json'
     )
 
     # Extract from local file
